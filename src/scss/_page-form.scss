@@ -1,0 +1,132 @@
+.page-form {
+  height: 600px;
+  width: 100%;
+  background-image: url(../images/bg1.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: left 20% top 0%;;
+}
+.page-form__container {
+  margin-left: 140px;
+  margin-right: 140px;
+}
+.form-article {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+.page-address {
+  margin-top: 110px;
+  margin-left: 50px;
+  white-space: nowrap;
+}
+.page-address__descript {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: white;
+}
+.page-contact__descript {
+  margin-top: 30px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: white;
+}
+.page-social {
+  margin-top: 55px;
+  margin-left: 50px;
+}
+.page-social__link {
+  text-decoration: none;
+  font-size: 22px;
+  margin-right: 25px;
+  color: white;
+  &:hover {
+    color: #7dbd6e;
+  }
+}
+.form-article-send {
+  width: 700px;
+  margin-left: 180px;
+}
+.form-article-send__header {
+  color: white;
+}
+.form-article-send__input {
+  background: transparent;
+  outline: none;
+  border: none;
+  width: 300px;
+  height: 40px;
+  border-bottom: 1px solid white;
+  color: white;
+  font-weight: 500;
+  &--text {
+    background: transparent;
+    outline: none;
+    border: none;
+    width: 625px;
+    height: 80px;
+    border-bottom: 1px solid white;
+    color: white;
+    font-weight: 500;
+  }
+}
+.form-article-send__submit {
+  background: transparent;
+  outline: none;
+  border: none;
+  width: 125px;
+  height: 25px;
+  color: #7dbd6e;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: block;
+  font-size: 11px;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-left: 450px;
+}
+.form-field {
+  margin-top: 35px;
+  width: 320px;
+  position: relative;
+  display: inline-block;
+}
+.label {
+  position: absolute;
+  left: 5px;
+  top: 15px;
+  color: white;
+  font-size: 11px;
+  text-transform: uppercase;
+  pointer-events:none;
+  transition:0.5s all;
+  -moz-transition:0.5s  all;
+  -webkit-transition:0.5s  all;
+  &--email, &--number, &--topic, &--text {
+    position: absolute;
+    left: 5px;
+    top: 15px;
+    color: white;
+    font-size: 11px;
+    pointer-events:none;
+    text-transform: uppercase;
+    transition:0.5s all;
+    -moz-transition:0.5s  all;
+    -webkit-transition:0.5s  all;
+  }
+}
+input:focus ~ label, input:valid ~ label  {
+  top: -15px;
+  font-size: 11px;
+  color: white;
+  text-transform: uppercase;
+}
+.page-copyright {
+  color: white;
+  text-transform: uppercase;
+  margin-left: 100px;
+  margin-top: 80px;
+  font-size: 11px;
+  font-weight: 100;
+}

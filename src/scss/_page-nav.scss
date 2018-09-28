@@ -1,0 +1,39 @@
+.page-nav-list{
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+.page-nav-list__link{
+  padding: 10px 22px;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  &--contact{
+    padding: 10px 22px;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    border: 1.5px solid $colorNav;
+    border-radius: 30px;
+  }
+}
+.page-nav-list__link:after{
+  content: '';
+  bottom: 0;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  height: 2px;
+  background: $colorNav;
+  transition: 0.5s all;
+}
+.page-nav-list__link:hover:after{
+  left: 5px;
+  right: 5px;
+}

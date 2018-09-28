@@ -1,0 +1,58 @@
+@media screen and (max-width: 1350px) {
+  .page-copyright {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .whatWeDo-article-block {
+    white-space: normal;
+  }
+  .technology-article-block {
+    white-space: normal;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .form-article-send__submit {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .technology-article-descript {
+    font-size: 12px;
+    &--small {
+      font-size: 10px;
+    }
+  }
+  .page-address {
+    white-space: normal;
+  }
+  .whatWeDo-article-block {
+    white-space: normal;
+  }
+  .whatWeDo__blocks {
+    flex-wrap: wrap;
+  }
+  .whatWeDo-article {
+    flex-wrap: wrap;
+  }
+  .technology-article {
+    flex-wrap: wrap;
+  }
+  .page-form {
+    height: auto;
+  }
+  .whatWeDo {
+    height: auto;
+  }
+  .page-header {
+    height: auto;
+  }
+  .technology {
+    height: auto;
+    &--reverse{
+      height: auto;
+    }
+  }
+  .form-article {
+    flex-wrap: wrap;
+  }
+}
