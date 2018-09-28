@@ -56,3 +56,21 @@
     flex-wrap: wrap;
   }
 }
+@media screen and (max-width: 768px) {
+  .page-form__container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .whatWeDo__container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .page-header__container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .technology__container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
